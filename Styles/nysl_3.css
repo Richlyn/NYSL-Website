@@ -1,0 +1,323 @@
+/* container for background */
+.top {
+  display: block;
+  height: 310px;
+  padding-top: 10px;
+}
+/* background img */
+body {
+  height: 100vh;
+
+  /* The image used*/
+  background-image: url("../imgs/field1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* logo img */
+.offset {
+  position: fixed;
+  width: 120px;
+  z-index: 1;
+  right: 10px;
+  bottom: 50px;
+}
+
+/* headline */
+.heading {
+  background: black;
+  color: white;
+  text-align: center;
+  width: 500px;
+  font-size: 2em;
+  border-radius: 10pt;
+}
+
+/* Top title text */
+h1.title {
+  font-size: 4em;
+  width: 1250px;
+  color: white;
+  text-align: center;
+  height: 30%;
+  text-align: center;
+  font-family: "platino", Times, serif;
+  letter-spacing: 3px;
+  background-color: black;
+  top: 50px;
+  border-radius: 10pt;
+}
+
+/* navbar */
+nav {
+  font-size: 20pt;
+  top: 80px;
+}
+
+/* nav buttons */
+nav a {
+  background-color: black;
+  border-radius: 3px;
+  display: inline-block;
+  color: white;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 6px 60px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px white;
+  letter-spacing: 4px;
+}
+
+nav a:hover {
+  background-color: gold;
+  color: black;
+  border: 1px solid black;
+}
+
+a.current:visted {
+  background-color: gold;
+  color: black;
+  border: 1px solid black;
+}
+
+/* Home content */
+.dates {
+  text-align: center;
+}
+
+/* rules content */
+.rules {
+  list-style-position: inside;
+}
+/* overall content */
+.content_box {
+  min-height: 100px;
+  max-height: 400px;
+  margin: auto;
+  color: black;
+  background-color: white;
+  border-radius: 10pt;
+  text-align: left;
+  overflow-y: auto;
+  text-indent: 2em;
+  list-style: none;
+  width: 90%;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.con {
+  display: flex;
+  justify-content: space-around;
+}
+.huddle {
+  display: flex;
+  align-self: flex-start;
+  height: 300px;
+  width: 450px;
+  float: right;
+}
+
+/* Rules list Symbles */
+.rules ul ol li ol li {
+  list-style-type: lower-alpha;
+}
+.rules ul li {
+  list-style-type: square;
+}
+
+.rules ul ol li ul li {
+  list-style-type: square;
+}
+.rules li p {
+  list-style-type: square;
+}
+.rules ul ol li {
+  list-style-type: decimal;
+}
+
+.rules ul ul li {
+  list-style-type: circle;
+}
+
+.rules ol li p {
+  font-weight: bold;
+  display: inline;
+}
+.rules ul li p {
+  font-weight: bold;
+  display: inline;
+}
+
+.rules ul li p:before {
+  font-weight: bold;
+}
+
+.not_bold {
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+}
+
+/* game info line  */
+.line {
+  font-style: italic;
+  text-decoration: underline;
+}
+/* Game Tables */
+.Oct {
+  margin-left: 55px;
+}
+td.c {
+  text-align: center;
+}
+
+.Months {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.locations {
+  padding-bottom: 40px;
+  margin: auto;
+}
+iframe {
+  display: flex;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+/*registration form */
+.form {
+  color: black;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type="text"],
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin: 10px;
+}
+.form_text_bar {
+  width: 300px;
+  padding: 10px;
+}
+/* Registration Form  */
+.form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.firstnames {
+  display: flex;
+  flex-direction: row;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+}
+.other_info {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 20px;
+}
+.normally {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 230px;
+  justify-content: flex-start;
+  margin-left: 35px;
+}
+.wanted {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 230px;
+  justify-content: flex-start;
+  margin-left: 35px;
+}
+.sizes {
+  display: flex;
+  flex-direction: row;
+}
+.permission {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+/*submit button */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input:required:valid {
+  border: 1px solid black;
+  background-color: white;
+  background-image: url(../imgs/valid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+input[type="radio"] {
+  -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+  -ms-appearance: checkbox; /* not currently supported */
+}
+
+.gender radio {
+  display: block;
+}
+.gender > label > input {
+  visibility: hidden;
+}
+
+/* show data content*/
+.show_data {
+  display: flex;
+  background-color: white;
+  border-style: solid;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 20px;
+  overflow-y: auto;
+  height: 50%;
+}
+
+.show_data th,
+.show_data td {
+  padding: 10px;
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-color: black;
+  text-align: left;
+}
+.show_data tr.even {
+  background-color: #fdd9d9;
+}

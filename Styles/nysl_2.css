@@ -1,0 +1,75 @@
+
+/* Top title text */
+.title{
+    position: absolute;
+    top: -60px;
+    left: 16px;
+    font-size: 2em; 
+}
+
+/* container for background */
+.top {
+    position: relative;
+    display: block;
+    height: 500px;
+    top: 25px;
+    background-image:url(../imgs/D2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1660px 500px;
+    background-position: bottom;    
+}
+
+/* logo img */
+.offset {
+    position: absolute;
+    width: 250px; 
+    margin-top: 60px;
+    z-index: 1;   
+}
+
+
+/* headline */
+.heading {
+    background: black;
+    color: white;
+    text-align: center;
+    top:500px;
+    position: relative;
+    width: 1660px;
+}
+
+ /* navbar */
+nav {
+    position: absolute;
+    font-size: 20pt;
+    top:0px;
+    right:95px;
+}
+
+/* nav buttons */
+nav a {
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+   
+}
+    
+nav a:hover {
+	background-color:#00CC66;
+}
+
+/* content */
+.container {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 100px;
+    text-indent: 10pt;
+    width: 1000px;
+}
